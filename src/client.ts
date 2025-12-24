@@ -61,7 +61,7 @@ export class OptiCmsClient {
         };
 
         try {
-          const errorData = await response.json();
+          const errorData = await response.json() as { message?: string; code?: string };
           error.message = errorData.message || error.message;
           error.code = errorData.code;
         } catch {
@@ -71,7 +71,7 @@ export class OptiCmsClient {
         throw error;
       }
 
-      const data = await response.json();
+      const data = await response.json() as T;
 
       return {
         data,
