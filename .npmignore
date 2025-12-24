@@ -1,0 +1,33 @@
+# Source files
+src/
+*.ts
+!*.d.ts
+
+# Config files
+tsconfig.json
+tsup.config.ts
+eslint.config.js
+.versionrc
+.gitignore
+.npmignore
+
+# Development
+node_modules/
+.yarn/
+.pnp.*
+*.log
+coverage/
+.vscode/
+.idea/
+
+# Tests
+*.test.ts
+*.spec.ts
+__tests__/
+
+# Git
+.git/
+.gitattributes
+
+# CI/CD
+.github/

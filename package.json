@@ -1,0 +1,63 @@
+{
+  "name": "opti-cms-client",
+  "version": "0.1.0",
+  "description": "A robust, framework-agnostic TypeScript client for Optimizely CMS",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "yarn build",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:major": "standard-version --release-as major",
+    "release:patch": "standard-version --release-as patch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marvoey/opti-cms-client.git"
+  },
+  "keywords": [
+    "optimizely",
+    "cms",
+    "client",
+    "typescript",
+    "framework-agnostic"
+  ],
+  "author": "Marvin Oey <marvin.oey@optimizely.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marvoey/opti-cms-client/issues"
+  },
+  "homepage": "https://github.com/marvoey/opti-cms-client#readme",
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@typescript-eslint/eslint-plugin": "^8.19.1",
+    "@typescript-eslint/parser": "^8.19.1",
+    "eslint": "^9.17.0",
+    "standard-version": "^9.5.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "packageManager": "yarn@4.5.3"
+}
