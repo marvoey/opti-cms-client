@@ -5,4 +5,9 @@ export type {
   ContentItem,
   ApiResponse,
   ErrorResponse,
+  PaginatedResponse,
+  ApiVersion,
+  ValidationError,
+  OAuthCredentials,
+  TokenResponse,
 } from './types';

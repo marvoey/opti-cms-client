@@ -1,5 +1,5 @@
 {
-  "name": "opti-cms-client",
+  "name": "@optimarvin/opti-cms-client",
   "version": "0.1.1",
   "description": "A robust, framework-agnostic TypeScript client for Optimizely CMS",
   "main": "./dist/index.js",

@@ -412,6 +412,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@optimarvin/opti-cms-client@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@optimarvin/opti-cms-client@workspace:."
+  dependencies:
+    "@types/node": "npm:^22.10.5"
+    "@typescript-eslint/eslint-plugin": "npm:^8.19.1"
+    "@typescript-eslint/parser": "npm:^8.19.1"
+    eslint: "npm:^9.17.0"
+    standard-version: "npm:^9.5.0"
+    tsup: "npm:^8.3.5"
+    typescript: "npm:^5.7.2"
+  languageName: unknown
+  linkType: soft
+
 "@rollup/rollup-android-arm-eabi@npm:4.54.0":
   version: 4.54.0
   resolution: "@rollup/rollup-android-arm-eabi@npm:4.54.0"
@@ -2666,20 +2680,6 @@ __metadata:
   checksum: 10c0/1f4df9945120325d041ccf7b86f31e8bcc14e73d29171e37a7903050e96b81323784ec59f93f102ec635bcf6fa8034ba3ea0a8c7e69fa202b87ae3b6cec5a414
   languageName: node
   linkType: hard
-
-"opti-cms-client@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "opti-cms-client@workspace:."
-  dependencies:
-    "@types/node": "npm:^22.10.5"
-    "@typescript-eslint/eslint-plugin": "npm:^8.19.1"
-    "@typescript-eslint/parser": "npm:^8.19.1"
-    eslint: "npm:^9.17.0"
-    standard-version: "npm:^9.5.0"
-    tsup: "npm:^8.3.5"
-    typescript: "npm:^5.7.2"
-  languageName: unknown
-  linkType: soft
 
 "optionator@npm:^0.9.3":
   version: 0.9.4
