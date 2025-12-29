@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/marvoey/opti-cms-client/compare/v0.1.2...v0.1.3) (2025-12-29)
+
+
+### Features
+
+* make public package ([4aed0a7](https://github.com/marvoey/opti-cms-client/commit/4aed0a75618a933e6c3414a3a9b14e878e87dca1))
+
 ### [0.1.2](https://github.com/marvoey/opti-cms-client/compare/v0.1.1...v0.1.2) (2025-12-29)
 
 
